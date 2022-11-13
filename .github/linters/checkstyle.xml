@@ -12,10 +12,6 @@
 
     <!-- Checks that no tab characters in the source code. -->
     <!-- Reports only first instance. -->
-    <module name="FileTabCharacter">
-        <property name="eachLine" value="false"/>
-    </module>
-
 
     <!-- Checks that no file is more than 1500 lines long. -->
     <module name="FileLength">
@@ -143,8 +139,6 @@
         </module>
 
         <module name="RedundantImport"/>
-        <module name="UnusedImports"/>
-
 
         <!-- =========================================================================== -->
         <!-- Javadoc comments                                                            -->
@@ -172,7 +166,6 @@
         <!-- Modifiers                                                                   -->
         <!-- http://checkstyle.sourceforge.net/config_modifier.html                      -->
         <!-- =========================================================================== -->
-        <module name="ModifierOrder"/>
         <module name="RedundantModifier"/>
 
 
@@ -282,8 +275,6 @@
                    SL, SLIST, SL_ASSIGN, SR, SR_ASSIGN, STAR_ASSIGN,
                    TYPE_EXTENSION_AND, WILDCARD_TYPE"/>
         </module>
-
-        <module name="NeedBraces"/>
 
 
     </module>
