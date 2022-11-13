@@ -1,6 +1,6 @@
-package com.alexm.flowerstorecontinue.items;
+package com.alexm.flowerstorecontinue.item;
 
-import com.alexm.flowerstorecontinue.items.flowers.Flower;
+import com.alexm.flowerstorecontinue.item.flower.Flower;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
@@ -8,7 +8,7 @@ public class FlowerPack extends Item {
     private Flower flower;
     private int quantity;
 
-    FlowerPack(Flower flower) {
+    public FlowerPack(Flower flower) {
         this(flower, 1);
     }
 

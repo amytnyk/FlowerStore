@@ -1,4 +1,4 @@
-package com.alexm.flowerstorecontinue.items;
+package com.alexm.flowerstorecontinue.item;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,9 +1,9 @@
-package com.alexm.flowerstorecontinue.controllers;
+package com.alexm.flowerstorecontinue.controller;
 
-import com.alexm.flowerstorecontinue.items.flowers.Chamomile;
-import com.alexm.flowerstorecontinue.items.flowers.Flower;
-import com.alexm.flowerstorecontinue.items.flowers.Rose;
-import com.alexm.flowerstorecontinue.items.flowers.Tulip;
+import com.alexm.flowerstorecontinue.item.flower.Chamomile;
+import com.alexm.flowerstorecontinue.item.flower.Flower;
+import com.alexm.flowerstorecontinue.item.flower.Rose;
+import com.alexm.flowerstorecontinue.item.flower.Tulip;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

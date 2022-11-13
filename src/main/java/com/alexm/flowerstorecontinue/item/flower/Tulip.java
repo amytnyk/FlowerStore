@@ -1,4 +1,4 @@
-package com.alexm.flowerstorecontinue.items.flowers;
+package com.alexm.flowerstorecontinue.item.flower;
 
 public class Tulip extends Flower {
     public Tulip() {

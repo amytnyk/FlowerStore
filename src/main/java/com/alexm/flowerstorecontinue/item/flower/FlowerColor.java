@@ -1,4 +1,4 @@
-package com.alexm.flowerstorecontinue.items.flowers;
+package com.alexm.flowerstorecontinue.item.flower;
 
 import lombok.AllArgsConstructor;
 

@@ -1,6 +1,6 @@
-package com.alexm.flowerstorecontinue.items.flowers;
+package com.alexm.flowerstorecontinue.item.flower;
 
-import com.alexm.flowerstorecontinue.items.Item;
+import com.alexm.flowerstorecontinue.item.Item;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
